@@ -14,3 +14,10 @@ Database:
     
 This project uses type hint
 
+
+### RUN
+
+if not exists:
+
+    python /dao/create_tables.py
+    
