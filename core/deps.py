@@ -1,8 +1,9 @@
 from typing import Generator
 from sqlalchemy.ext.asyncio import AsyncSession
 from dao import Session
-from log import RotatingLog
 from core import Settings
+
+settings: Settings = Settings()
 
 
 async def get_session() -> Generator:
@@ -10,7 +11,6 @@ async def get_session() -> Generator:
     try:
         yield session
     except Exception as e:
-        rl = RotatingLog(Settings.LOG_FILE, Settings.LOG_FILE, "error")
-        rl.logger.error(e)
+        print(e)
     finally:
         await session.close()
