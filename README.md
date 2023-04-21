@@ -25,6 +25,9 @@ This project uses type hint
  ![image](https://user-images.githubusercontent.com/88283829/233526821-4784e0b7-8bd1-4183-8748-783588b80c2e.png)
 
 
+    Methods:
+    
+    - GET, PUT, POST, DELETE on /api/v1/courses or /api/v1/courses/<id>
 
 
 ### RUN
