@@ -29,6 +29,8 @@ This project uses type hint
     
     - GET, PUT, POST, DELETE on /api/v1/courses or /api/v1/courses/<id>
 
+![image](https://user-images.githubusercontent.com/88283829/233528709-4d7b7a1e-438a-4a95-9b3f-a147ed00725d.png)
+
 
 ### RUN
 
